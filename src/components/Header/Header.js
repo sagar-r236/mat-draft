@@ -10,8 +10,8 @@ const Header = () => {
                     <ul className="flex justify-around font-medium">
                         <li className="hover:border-dotted hover:border-2 hover:border-black"><Link to="/">Home</Link></li>
                         <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>Register</Link></li>
-                        <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>Member Login</Link></li>
-                        <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>Pricing</Link></li>
+                        <li className="hover:border-dotted hover:border-2 hover:border-black"><Link to="/login">Member Login</Link></li>
+                        <li className="hover:border-dotted hover:border-2 hover:border-black"><Link to="/pricing">Pricing</Link></li>
                         <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>Wedding planner</Link></li>
                         <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>FAQ</Link></li>
                         <li className="hover:border-dotted hover:border-2 hover:border-black"><Link>Reach Us</Link></li>

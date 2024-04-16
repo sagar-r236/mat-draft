@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Body from "./components/Body/Body";
+import Pricing from "./components/Pricing/Pricing";
+import  Login  from "./components/Login/Login";
 
 const App = () => {
 
@@ -32,6 +34,14 @@ const appRouter  = createBrowserRouter([
             {
                 path: "/",
                 element: <Body />
+            },
+            {
+                path: "/pricing",
+                element: <Pricing />
+            }, 
+            {
+                path: "/login",
+                element: <Login />
             }
         ]
     }
